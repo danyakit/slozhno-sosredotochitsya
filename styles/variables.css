@@ -7,8 +7,9 @@
   --bg-color: #000028;
   --text-color: #f1b2ce;
   --accent-color: #ff0070;
-  --main-font: 'IBM Plex Mono', sans-serif;
+  --main-font: 'IBM Plex Mono', monospace;
   --text-size: 18px;
+  --title-size:  clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
 }
 
 

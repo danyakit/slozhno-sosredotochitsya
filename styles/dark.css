@@ -11,16 +11,19 @@
   */
     background-color: var(--bg-color);
     background-image: url(../images/cover-image-dark.png);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
     color: var(--text-color);
 }
 
-:root.theme_dark {
---bg-color: #000028;
---text-color: #f1b2ce;
---accent-color: #ff0070;
---main-font: 'IBM Plex Mono', sans-serif;
---text-size: 18px;
+  :root.theme_dark {
+  --bg-color: #000028;
+  --text-color: #f1b2ce;
+  --accent-color: #ff0070;
 }
+
+@media (prefers-color-scheme: dark) {
+  :root .theme_auto {
+    --bg-color: #000028;
+    --text-color: #f1b2ce;
+    --accent-color: #ff0070;  
+    }
+  }
