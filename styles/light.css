@@ -16,9 +16,9 @@
 }
 
 .theme_light {
-  --bg-color: #FFF1F7;
+  --bg-color: #fff1f7;
   --text-color: #353430;
-  --accent-color: #FF8DCB;
+  --accent-color: #ff8dcb;
 }
 
 .page.theme_light .rec-element {
@@ -30,8 +30,8 @@
 }
 
 .theme_light .header__title {
-  color: #FFC2E6;
-  text-shadow: 4px 4px 0px #FF8DCB;
+  color: #ffc2e6;
+  text-shadow: 4px 4px 0px #ff8dcb;
 }
 
 .theme_light .section_title {
@@ -47,51 +47,51 @@
 }
 
 .theme_light .footer__title {
-  color: #FFC2E6;
-  text-shadow: 2px 2px 0px #FF0070;
+  color: #ffc2e6;
+  text-shadow: 2px 2px 0px #ff0070;
 }
 
 @media (prefers-color-scheme: light) {
-  :root .theme_auto {
-    --bg-color: #FFF1F7;
+  :root {
+    --bg-color: #fff1f7;
     --text-color: #353430;
-    --accent-color: #FF8DCB;  
-    }
-    
-  .page {
-      background-color: var(--bg-color);
-      background-image: url(../images/cover-image-light.png);
-      background-repeat: no-repeat;
-      color: currentColor;
-    }
+    --accent-color: #ff8dcb;
+  }
 
-    .theme_auto .rec-element  {
-      display: none;
-    }
-    
-    .theme_auto .header {
-      color: var(--text-color);
-    }
-    
-    .theme_auto .header__title {
-      color: #FFC2E6;
-      text-shadow: 4px 4px 0px #FF8DCB;
-    }
-    
-    .theme_auto .section_title {
-      color: var(--text-color);
-    }
-    
-    .theme_auto .title-decor {
-      color: var(--text-color);
-    }
-    
-    .theme_auto .footer {
-      color: var(--text-color);
-    }
-    
-    .theme_auto .footer__title {
-      color: #FFC2E6;
-      text-shadow: 2px 2px 0px #FF0070;
-    }
+  .page {
+    background-color: var(--bg-color);
+    background-image: url(../images/cover-image-light.png);
+    background-repeat: no-repeat;
+    color: currentColor;
+  }
+
+  .rec-element {
+    display: none;
+  }
+
+  .header {
+    color: var(--text-color);
+  }
+
+  .header__title {
+    color: #ffc2e6;
+    text-shadow: 4px 4px 0px #ff8dcb;
+  }
+
+  .section_title {
+    color: var(--text-color);
+  }
+
+  .title-decor {
+    color: var(--text-color);
+  }
+
+  .footer {
+    color: var(--text-color);
+  }
+
+  .footer__title {
+    color: #ffc2e6;
+    text-shadow: 2px 2px 0px #ff0070;
+  }
 }
